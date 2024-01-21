@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+/* Tailwind CSS for full background */
+.hero-bg {
+  /* Additional styles if needed */
+}
+
+/* Fade-in-out animation */
+@keyframes fade-in-out {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.fade-in-out {
+  animation: fade-in-out 7s infinite;
+}
+
+/* Bouncing mouse icon animation */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.mouse-icon-container {
+  animation: bounce 2s infinite;
+}
